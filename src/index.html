@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
+<html lang="en">
 
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Bars</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="values-container"></div>
+  <input type="text" id="value-name" placeholder="Name">
+  <input type="number" id="value-number" placeholder="Number" min="0" max="999">
+  <button id="update-button">Update Value</button>
+  <script src="renderer.js"></script>
+</body>
+
 </html>
