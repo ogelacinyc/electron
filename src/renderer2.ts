@@ -70,5 +70,5 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 document.getElementById('switch')?.addEventListener('click', () => {
-  window.electronAPI.switchSub()
+  window.electronAPI.switchMain()
 })
